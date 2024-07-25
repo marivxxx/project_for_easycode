@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гончарная мастерская</title>
+    <!-- Подключение стилей CSS в другом файле -->
+    <link rel="stylesheet" href="public/styles/style.css"> 
+    <style>
+        @font-face {
+            font-family: Inter BlackItalic; /* Гарнитура шрифта */
+            src: url(public/fonts/Inter-BlackItalic.ttf) /* Путь к файлу со шрифтом */
+        }
+        @font-face {
+            font-family: Inter light; /* Гарнитура шрифта */
+            src: url(public/fonts/Inter-LightBETA.ttf) /* Путь к файлу со шрифтом */
+        }
+        @font-face {
+            font-family: Inter medium Italic; /* Гарнитура шрифта */
+            src: url(public/fonts/Inter-MediumItalic.ttf) /* Путь к файлу со шрифтом */
+        }
+        @font-face {
+            font-family: Inter Semi Bold; /* Гарнитура шрифта */
+            src: url(public/fonts/Inter-SemiBold.ttf) /* Путь к файлу со шрифтом */
+        }
+        @font-face {
+            font-family: Inter Bold; /* Гарнитура шрифта */
+            src: url(public/fonts/Inter-Bold.ttf) /* Путь к файлу со шрифтом */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="background"></div>
+
+    <header>
+        <nav class="navigate">
+            <div>
+                <a id="companyName" href="index.html">Гончарная мастерская Изика</a>
+                <a class="link" id="linkone" href="notPage.html">Мастер-классы</a>
+                <a class="link" id="linktwo" href="notPage.html">Контакты</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div id="backcolor">
+            <div id="photo"></div> 
+            <div id="text">
+                <p id="mk">мастер-класс</p>
+                <h1 id="first">ГОНЧАРНОЕ</h1>
+                <h1 id="second">ИСКУССТВО</h1>
+                <h3 id="three">Предлагаем Вам попробовать себя в гончарном деле и научиться лепить из глины любое изделие.</h3>
+                <h3  id="fourth">Ждем детей и взрослых!</h3>
+                <div id="forButton">
+                    <input id="button" type="submit" value="Записаться">
+                </div>
+            </div>
+        </div>  
+    </div>
+
+    <div class="backWithMK">
+
+        <h2 class="textMK">Мастер-классы</h2>
+
+        <div class="blockWithCards">
+            <div class="card">
+                <img src="public/image/img1.png" alt="">
+                <p>Знакомство<br>с гончарным кругом</p>
+            </div>
+            
+            <div class="card">
+                <img src="public/image/img2.png" alt="">
+                <p>“Идея мечты”<br>кружка</p>
+            </div>
+
+            <div class="card">
+                <img src="public/image/img3.png" alt="">
+                <p>“Идея мечты"<br>тарелка</p>
+            </div>
+
+            <div class="card">
+                <img src="public/image/img4.png" alt="">
+                <p>Набор простой<br>посуды</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
